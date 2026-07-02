@@ -1,55 +1,74 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
-  <diagram name="Страница-1" id="eqzYFw_RQJhh3nSlAyut">
-    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram name="Страница-1" id="vT_gMcuN0xB9hPCgzo8X">
+    <mxGraphModel dx="906" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-19" edge="1" parent="1" source="O4v8Fiw-MUfFdaFGX8GZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="O4v8Fiw-MUfFdaFGX8GZ-3">
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-8" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gsrHNmnxe5a9h5KHRyw2-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CSV" vertex="1">
-          <mxGeometry height="60" width="120" x="525" y="60" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CSV" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-6" edge="1" parent="1" source="O4v8Fiw-MUfFdaFGX8GZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="O4v8Fiw-MUfFdaFGX8GZ-5">
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-17" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gsrHNmnxe5a9h5KHRyw2-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-15" edge="1" parent="1" source="O4v8Fiw-MUfFdaFGX8GZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="O4v8Fiw-MUfFdaFGX8GZ-14">
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-18" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gsrHNmnxe5a9h5KHRyw2-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Laoder" vertex="1">
-          <mxGeometry height="60" width="120" x="525" y="190" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Laoder" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-11" edge="1" parent="1" source="O4v8Fiw-MUfFdaFGX8GZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="O4v8Fiw-MUfFdaFGX8GZ-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="370" y="350" />
-              <mxPoint x="370" y="220" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Elasticsearch" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="475" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Postgres" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="320" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-21" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="gsrHNmnxe5a9h5KHRyw2-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;1286&quot; data-end=&quot;1324&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;Преобразует CSV → Document&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;br/&gt;&lt;p data-start=&quot;1326&quot; data-end=&quot;1362&quot;&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="610" y="140" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;1048&quot; data-end=&quot;1083&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;Возвращает созданный id&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;br/&gt;&lt;p data-start=&quot;1085&quot; data-end=&quot;1088&quot;&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="70" width="60" x="310" y="250" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-10" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="gsrHNmnxe5a9h5KHRyw2-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Принимает ид" vertex="1">
-          <mxGeometry height="30" width="60" x="450" y="180" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Исходник" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="155" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Elasticsearch" vertex="1">
-          <mxGeometry height="60" width="120" x="720" y="190" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-20" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gsrHNmnxe5a9h5KHRyw2-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Передает ИД" vertex="1">
-          <mxGeometry height="30" width="60" x="645" y="180" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Читает исходник и преобразует данные" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="255" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;1202&quot; data-end=&quot;1241&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;Добавляет документ в индекс&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;br/&gt;&lt;p data-start=&quot;1243&quot; data-end=&quot;1271&quot;&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="780" y="180" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-19" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gsrHNmnxe5a9h5KHRyw2-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O4v8Fiw-MUfFdaFGX8GZ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;752&quot; data-end=&quot;861&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;Сохраняет Document&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;br/&gt;&lt;p data-start=&quot;863&quot; data-end=&quot;937&quot;&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="585" y="270" as="geometry" />
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Хранит поисковый индекс и ещет документ по text" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-16" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="gsrHNmnxe5a9h5KHRyw2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Хранит полноту данных и является источником истины" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-23" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="gsrHNmnxe5a9h5KHRyw2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Возращает ID" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-26" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="gsrHNmnxe5a9h5KHRyw2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Перадает ID и text в Elasticsearch" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-28" edge="1" parent="1" source="gsrHNmnxe5a9h5KHRyw2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="gsrHNmnxe5a9h5KHRyw2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsrHNmnxe5a9h5KHRyw2-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;1386&quot; data-end=&quot;1416&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼs ͼ16&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;Сохраняет Document&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;br/&gt;&lt;p data-start=&quot;1418&quot; data-end=&quot;1421&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="375" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

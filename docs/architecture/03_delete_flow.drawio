@@ -1,0 +1,62 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Страница-1" id="VBBcjxa1UmOXmDUngROi">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Df_fsG2MZrNtK61daV4m-7" edge="1" parent="1" source="Df_fsG2MZrNtK61daV4m-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Df_fsG2MZrNtK61daV4m-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-22" edge="1" parent="1" source="Df_fsG2MZrNtK61daV4m-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="Df_fsG2MZrNtK61daV4m-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FastAPI" vertex="1">
+          <mxGeometry height="60" width="120" x="525" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-19" edge="1" parent="1" source="Df_fsG2MZrNtK61daV4m-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Df_fsG2MZrNtK61daV4m-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Запрос DELETE" vertex="1">
+          <mxGeometry height="30" width="60" x="585" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-23" edge="1" parent="1" source="Df_fsG2MZrNtK61daV4m-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Df_fsG2MZrNtK61daV4m-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="60" width="120" x="525" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-24" edge="1" parent="1" source="Df_fsG2MZrNtK61daV4m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Df_fsG2MZrNtK61daV4m-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="480" />
+              <mxPoint x="430" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Elasticsearch" vertex="1">
+          <mxGeometry height="60" width="120" x="525" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-12" edge="1" parent="1" source="Df_fsG2MZrNtK61daV4m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="Df_fsG2MZrNtK61daV4m-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Передает ID" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-17" edge="1" parent="1" source="Df_fsG2MZrNtK61daV4m-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="Df_fsG2MZrNtK61daV4m-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="285" />
+              <mxPoint x="430" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Возвращает результат удаления&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Df_fsG2MZrNtK61daV4m-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Вывод результата" vertex="1">
+          <mxGeometry height="30" width="60" x="525" y="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
