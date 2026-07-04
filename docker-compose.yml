@@ -1,0 +1,14 @@
+services:
+  elasticsearch:
+    image: elasticsearch:8.15.0
+    container_name: doc-search-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+
+volumes:
+  elasticsearch_data:

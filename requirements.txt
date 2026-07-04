@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+sqlalchemy
+alembic
+psycopg2-binary
+elasticsearch>=8,<9

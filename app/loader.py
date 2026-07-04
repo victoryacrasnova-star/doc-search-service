@@ -1,6 +1,7 @@
 import csv
 from pathlib import Path
 from app.models import Document
+from app.elastic import index_document
 
 import ast
 from datetime import datetime
@@ -20,18 +21,15 @@ def parse_created_date(value: str) -> datetime:
 def load_csv():
     db = SessionLocal()
     try:
-        with CSV_PATCH.open("r", encoding="utf-8") as file:
+        with CSV_PATH.open("r", encoding="utf-8") as file:
             reader = csv.DictReader(file)
+
+            documents = []
 
             for row in reader:
                 rubrics = parse_rubrics(row["rubrics"])
                 created_date = parse_created_date(row["created_date"])
 
-                print(rubrics)
-                print(type(rubrics))
-
-                print(created_date)
-                print(type(created_date))
 
                 document = Document(
                     rubrics=rubrics,
@@ -39,7 +37,12 @@ def load_csv():
                     created_date=created_date,
                 )
                 db.add(document)
+                documents.append(document)
             db.commit()
+
+            for document in documents:
+                db.refresh(document)
+                index_document(document.id, document.text)
     finally:
         db.close()
         
