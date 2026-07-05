@@ -1,10 +1,10 @@
+import os
+
 from elasticsearch import Elasticsearch
 
-
-ELASTICSEARCH_URL = "http://localhost:9200"
+ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL", "http://localhost:9200")
 
 es_client = Elasticsearch(ELASTICSEARCH_URL)
-
 
 def check_elasticsearch_connection():
     return es_client.info()
@@ -33,6 +33,3 @@ def search_document_ids(query: str, limit: int = 20) -> list[int]:
 
 def delete_document_from_index(document_id):
     es_client.delete(index="documents", id=document_id)
-    
-if __name__ == "__main__":
-    print(check_elasticsearch_connection())

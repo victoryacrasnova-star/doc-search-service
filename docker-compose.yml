@@ -10,5 +10,43 @@ services:
     volumes:
       - elasticsearch_data:/usr/share/elasticsearch/data
 
+  postgres:
+    image: postgres:16
+    container_name: doc-search-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: doc_search_service
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+      build: .
+      container_name: doc-search-backend
+      command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+      ports:
+        - "8000:8000"
+      environment:
+        DATABASE_URL: postgresql://postgres:postgres@postgres:5432/doc_search_service
+        ELASTICSEARCH_URL: http://elasticsearch:9200
+      depends_on:
+        - postgres
+        - elasticsearch
+
+  loader:
+    build: .
+    container_name: doc-search-loader
+    command: python -m app.loader
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/doc_search_service
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    depends_on:
+      - postgres
+      - elasticsearch
+
+
 volumes:
-  elasticsearch_data:
+  postgres_data:
+  elasticsearch_data: 

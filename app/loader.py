@@ -2,18 +2,16 @@ import csv
 from pathlib import Path
 from app.models import Document
 from app.elastic import index_document
-
 import ast
 from datetime import datetime
-
 from app.database import SessionLocal
 
-CSV_PATCH = Path("data/posts.csv")
+
+CSV_PATH = Path("data/posts.csv")
 
 def parse_rubrics(value: str) -> str:
     rubrics = ast.literal_eval(value)
     return ", ".join(rubrics)
-
 
 def parse_created_date(value: str) -> datetime:
     return datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
@@ -43,9 +41,9 @@ def load_csv():
             for document in documents:
                 db.refresh(document)
                 index_document(document.id, document.text)
+
     finally:
         db.close()
-        
 
 if __name__ == "__main__":
     load_csv()
