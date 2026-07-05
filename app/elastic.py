@@ -31,5 +31,8 @@ def search_document_ids(query: str, limit: int = 20) -> list[int]:
     return [int(hit["_id"]) for hit in hits]
 
 
+def delete_document_from_index(document_id):
+    es_client.delete(index="documents", id=document_id)
+    
 if __name__ == "__main__":
     print(check_elasticsearch_connection())

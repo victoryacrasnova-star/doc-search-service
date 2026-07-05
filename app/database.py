@@ -40,3 +40,13 @@ def get_documents_by_ids(db, document_ids: list[int]):
         .limit(20)
         .all()
     )
+
+def delete_document_from_db(db, document_id):
+    from app.models import Document
+
+    document = db.query(Document).filter(Document.id == document_id).first()
+    if document:
+        db.delete(document)
+        db.commit()
+        return True
+    return False
