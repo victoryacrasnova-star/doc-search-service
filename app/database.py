@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 from dotenv import load_dotenv
 
+
 load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -21,3 +22,21 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+
+def get_documents_by_ids(db, document_ids: list[int]):
+
+    from app.models import Document
+
+    
+    if not document_ids:
+        return []
+
+    return (
+        db.query(Document)
+        .filter(Document.id.in_(document_ids))
+        .order_by(Document.created_date.desc())
+        .limit(20)
+        .all()
+    )

@@ -15,6 +15,21 @@ def index_document(document_id: int, text: str):
     }
     es_client.index(index="documents", id=document_id, document=document)
 
+def search_document_ids(query: str, limit: int = 20) -> list[int]:
+    response = es_client.search(
+        index="documents",
+        query={
+            "match": {
+                "text": query
+            }
+        },
+        size=limit,
+    )
+
+    hits = response["hits"]["hits"]
+
+    return [int(hit["_id"]) for hit in hits]
+
 
 if __name__ == "__main__":
     print(check_elasticsearch_connection())
