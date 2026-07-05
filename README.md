@@ -32,12 +32,13 @@ pip install -r requirements.txt
 
 ```env
 DATABASE_URL=postgresql://postgres:postgres@localhost:5432/doc_search_service
+ELASTICSEARCH_URL=http://localhost:9200
 ```
 
-### 3. Запустить Elasticsearch
+### 3. Запустить PostgreSQL и Elasticsearch
 
 ```bash
-docker compose up -d
+docker compose up -d postgres elasticsearch
 ```
 
 ### 4. Применить миграции
@@ -63,7 +64,7 @@ docker compose run --rm loader
 Swagger будет доступен по адресу:
 
 ```text
-http://127.0.0.1:8000/docs
+http://localhost:8000/docs
 ```
 
 ## API
